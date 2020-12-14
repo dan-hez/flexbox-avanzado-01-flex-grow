@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    height: 250px;
+    border: solid 1px black;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.containers{
+    width: 100vw;
+    display: flex;
+}
+
+/* ejercicio 1 */
+.tamano{
+    width: 250px;
+    background-color: sienna;
+    border: 1px solid black;
+}
+.unico{
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+/* ejercicio 2 */
+.separada{
+    width: 200px;
+    background-color: seagreen;
+}
+.grow{
+    flex-grow: 1;
+    background-color: chocolate;
+}
+
+/* ejercicio 3 */
+div{
+    background-color: palegreen;
+    flex-grow: 1;
+}
+
+/* ejercicio 4 */
+.mitad{
+    flex-grow: 2;
+    background-color: orange;
+}
+.cuarto{
+    flex-grow: 1;
+    background-color: lightseagreen;
+} */
+
+/* ejercicio 5*/
+/* 20% */
+div{
+    /* tambien puede ser el grow de 1 */
+    flex-grow: 2;
+    background-color: chocolate;
+}
+/* 60% */
+.unico{
+    /* tambien puede ser el grow de 3 */
+    flex-grow: 6;
+    background-color: green;
+} 
